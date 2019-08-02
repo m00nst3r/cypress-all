@@ -6,9 +6,9 @@ RUN node --version
 RUN echo "Installing latest cypress"
 
 # Install cypress
-RUN npm install --save-dev cypress
+RUN npm install -g cypress
 
-RUN $(npm bin)/cypress verify
+RUN cypress verify
 
 RUN echo "force new chrome here"
 

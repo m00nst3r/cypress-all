@@ -8,11 +8,12 @@ Docker image with latest version of Cypress and Google Chrome
 * yarn version:    **1.16.0**
 * debian version:  **8.11**
 * Chrome version:  **Google Chrome 76.0.3809.87**
-* git version:     **git version 2.1.4** 
+* git version:     **git version 2.1.4**
 
 ## Development
 
-build 
-```
-sh ./build-docker.sh 
+build
+
+```bash
+sh ./build-docker.sh
 ```
